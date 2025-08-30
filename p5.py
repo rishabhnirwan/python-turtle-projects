@@ -10,10 +10,10 @@ tim.shape('arrow')
 tim.width(3)
 tim.speed(0)
 
-screen = turtle.Screen() #initialise screen object
-
 #number of circles
-n =50
+n = int(input("Enter number  of circles : "))
+
+screen = turtle.Screen() #initialise screen object
 
 for i in range(0,n):
     #pick random color for tim 
